@@ -152,6 +152,12 @@ Section:NewToggle("Auto UpFactory", "Click To UpFactory", function(UF)
     }
 
     game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("FactoryUpgrade"):FireServer(unpack(args))
+    local args = {
+    [1] = 5,
+    [2] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("FactoryUpgrade"):FireServer(unpack(args))
         end
     end)
 
