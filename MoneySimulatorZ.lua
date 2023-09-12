@@ -91,7 +91,48 @@ Section:NewToggle("Auto Upgrade Slot3", "Click To Upgrade", function(S3)
     }
 
     game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMoreMachines"):FireServer(unpack(args))
+    local args = {
+        [1] = 4,
+        [2] = 1,
+        [3] = false
+    }
 
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMoreMachines"):FireServer(unpack(args))
+    local args = {
+        [1] = 5,
+        [2] = 1,
+        [3] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMoreMachines"):FireServer(unpack(args))
+    local args = {
+        [1] = 6,
+        [2] = 1,
+        [3] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMoreMachines"):FireServer(unpack(args))
+    local args = {
+        [1] = 7,
+        [2] = 1,
+        [3] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMoreMachines"):FireServer(unpack(args))
+    local args = {
+        [1] = 8,
+        [2] = 1,
+        [3] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMoreMachines"):FireServer(unpack(args))
+    local args = {
+        [1] = 9,
+        [2] = 1,
+        [3] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMoreMachines"):FireServer(unpack(args))
         end
     end)
 
