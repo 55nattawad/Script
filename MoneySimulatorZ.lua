@@ -96,7 +96,7 @@ Section:NewToggle("Auto Upgrade Slot3", "Click To Upgrade", function(S3)
 
 Section:NewToggle("Auto Upgrade Slot4", "Click To Upgrade", function(S4)
     _G.UpgradeSlot4 = S4
-    while _G.UpgradeSlot3 do wait ()
+    while _G.UpgradeSlot4 do wait ()
     local args = {
         [1] = 4,
         [2] = 1,
