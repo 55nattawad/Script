@@ -32,9 +32,9 @@ end)
 local Tab = Window:NewTab("Auto Machine")
 local Section = Tab:NewSection("Auto Machine")
 
-Section:NewToggle("Auto BuyMachine", "Click To BuyMachine", function(B1)
-    _G.BuyMachineSlot1 = B1
-    while _G.BuyMachineSlot1 do wait ()
+Section:NewToggle("Auto BuyMachine", "Click To BuyMachine", function(B)
+    _G.BuyMachine = B
+    while _G.BuyMachine do wait ()
         local args = {
         [1] = 1,
         [2] = false
