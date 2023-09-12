@@ -29,8 +29,68 @@ end
 end
 end)
 
-local Tab = Window:NewTab("Auto UpgradeMachine")
-local Section = Tab:NewSection("Auto UpgradeMachine")
+local Tab = Window:NewTab("Auto Machine")
+local Section = Tab:NewSection("Auto Machine")
+
+Section:NewToggle("Auto BuyMachine", "Click To BuyMachine", function(B1)
+    _G.BuyMachineSlot1 = B1
+    while _G.BuyMachineSlot1 do wait ()
+        local args = {
+        [1] = 1,
+        [2] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMachine"):FireServer(unpack(args))
+            local args = {
+        [1] = 2,
+        [2] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMachine"):FireServer(unpack(args))
+            local args = {
+        [1] = 3,
+        [2] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMachine"):FireServer(unpack(args))
+            local args = {
+        [1] = 4,
+        [2] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMachine"):FireServer(unpack(args))
+            local args = {
+        [1] = 5,
+        [2] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMachine"):FireServer(unpack(args))
+            local args = {
+        [1] = 6,
+        [2] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMachine"):FireServer(unpack(args))
+            local args = {
+        [1] = 7,
+        [2] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMachine"):FireServer(unpack(args))
+            local args = {
+        [1] = 8,
+        [2] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMachine"):FireServer(unpack(args))
+            local args = {
+        [1] = 9,
+        [2] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMachine"):FireServer(unpack(args))
+        end
+    end)
 
 Section:NewToggle("Auto UpgradeMachine", "Click To UpgradeMachine", function(U)
     _G.UpgradeMachine = U
@@ -161,70 +221,6 @@ Section:NewToggle("Auto UpgradeMachine", "Click To UpgradeMachine", function(U)
     }
 
     game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMoreMachines"):FireServer(unpack(args))
-        end
-    end)
-
-
-local Tab = Window:NewTab("Auto BuyMachine")
-local Section = Tab:NewSection("Auto BuyMachine")
-
-Section:NewToggle("Auto BuyMachine", "Click To BuyMachine", function(B1)
-    _G.BuyMachineSlot1 = B1
-    while _G.BuyMachineSlot1 do wait ()
-        local args = {
-        [1] = 1,
-        [2] = false
-    }
-
-    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMachine"):FireServer(unpack(args))
-            local args = {
-        [1] = 2,
-        [2] = false
-    }
-
-    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMachine"):FireServer(unpack(args))
-            local args = {
-        [1] = 3,
-        [2] = false
-    }
-
-    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMachine"):FireServer(unpack(args))
-            local args = {
-        [1] = 4,
-        [2] = false
-    }
-
-    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMachine"):FireServer(unpack(args))
-            local args = {
-        [1] = 5,
-        [2] = false
-    }
-
-    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMachine"):FireServer(unpack(args))
-            local args = {
-        [1] = 6,
-        [2] = false
-    }
-
-    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMachine"):FireServer(unpack(args))
-            local args = {
-        [1] = 7,
-        [2] = false
-    }
-
-    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMachine"):FireServer(unpack(args))
-            local args = {
-        [1] = 8,
-        [2] = false
-    }
-
-    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMachine"):FireServer(unpack(args))
-            local args = {
-        [1] = 9,
-        [2] = false
-    }
-
-    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMachine"):FireServer(unpack(args))
         end
     end)
 
