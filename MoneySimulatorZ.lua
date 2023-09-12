@@ -111,6 +111,112 @@ Section:NewToggle("Auto Upgrade Slot4", "Click To Upgrade", function(S4)
     }
 
     game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMoreMachines"):FireServer(unpack(args))
+
+        end
+    end)
+
+Section:NewToggle("Auto Upgrade Slot5", "Click To Upgrade", function(S5)
+    _G.UpgradeSlot5 = S5
+    while _G.UpgradeSlot5 do wait ()
+    local args = {
+        [1] = 5,
+        [2] = 1,
+        [3] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("UpgradeMachine"):FireServer(unpack(args))
+    local args = {
+        [1] = 5,
+        [2] = 1,
+        [3] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMoreMachines"):FireServer(unpack(args))
+
+        end
+    end)
+
+Section:NewToggle("Auto Upgrade Slot6", "Click To Upgrade", function(S6)
+    _G.UpgradeSlot6 = S6
+    while _G.UpgradeSlot4 do wait ()
+    local args = {
+        [1] = 6,
+        [2] = 1,
+        [3] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("UpgradeMachine"):FireServer(unpack(args))
+    local args = {
+        [1] = 6,
+        [2] = 1,
+        [3] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMoreMachines"):FireServer(unpack(args))
+
+        end
+    end)
+
+Section:NewToggle("Auto Upgrade Slot7", "Click To Upgrade", function(S7)
+    _G.UpgradeSlot7 = S7
+    while _G.UpgradeSlot7 do wait ()
+    local args = {
+        [1] = 7,
+        [2] = 1,
+        [3] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("UpgradeMachine"):FireServer(unpack(args))
+    local args = {
+        [1] = 7,
+        [2] = 1,
+        [3] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMoreMachines"):FireServer(unpack(args))
+
+        end
+    end)
+
+Section:NewToggle("Auto Upgrade Slot8", "Click To Upgrade", function(S8)
+    _G.UpgradeSlot8 = S8
+    while _G.UpgradeSlot8 do wait ()
+    local args = {
+        [1] = 8,
+        [2] = 1,
+        [3] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("UpgradeMachine"):FireServer(unpack(args))
+    local args = {
+        [1] = 8,
+        [2] = 1,
+        [3] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMoreMachines"):FireServer(unpack(args))
+
+        end
+    end)
+
+Section:NewToggle("Auto Upgrade Slot4", "Click To Upgrade", function(S9)
+    _G.UpgradeSlot9 = S9
+    while _G.UpgradeSlot4 do wait ()
+    local args = {
+        [1] = 9,
+        [2] = 1,
+        [3] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("UpgradeMachine"):FireServer(unpack(args))
+    local args = {
+        [1] = 9,
+        [2] = 1,
+        [3] = false
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyMoreMachines"):FireServer(unpack(args))
+
         end
     end)
 
