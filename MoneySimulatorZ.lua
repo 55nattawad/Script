@@ -29,12 +29,12 @@ end
 end
 end)
 
-local Tab = Window:NewTab("Auto Upgrade")
-local Section = Tab:NewSection("Auto Upgrade")
+local Tab = Window:NewTab("Auto UpgradeMachine")
+local Section = Tab:NewSection("Auto UpgradeMachine")
 
-Section:NewToggle("Auto Upgrade", "Click To Upgrade", function(U)
-    _G.Upgrade = U
-    while _G.UpgradeSlot1 do wait ()
+Section:NewToggle("Auto UpgradeMachine", "Click To UpgradeMachine", function(U)
+    _G.UpgradeMachine = U
+    while _G.UpgradeMachine do wait ()
     local args = {
         [1] = 1,
         [2] = 1,
